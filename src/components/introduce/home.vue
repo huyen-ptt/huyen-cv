@@ -61,7 +61,7 @@ export default {
   width: 100%;
   //margin-top: 10px;
   justify-content: center;
-  padding-bottom: 30px;
+  padding:100px 0 30px 0;
 
   .avt {
     animation: avtt 8s ease-in-out infinite;

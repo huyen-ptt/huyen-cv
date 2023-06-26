@@ -45,7 +45,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, .09);
 
     .img-home {
-      width: 450px;
+      width: 100%;
       height: 300px;
       border-radius: 17px;
       object-fit: contain;
@@ -124,7 +124,8 @@
       display: flex;
       flex-direction: column;
       .img-home{
-        width: 100%;
+        height: auto;
+        padding: 10px 30px;
         border-bottom: 1px solid grey;
         border-radius: 0;
       }
