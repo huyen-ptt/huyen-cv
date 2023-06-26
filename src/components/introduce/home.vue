@@ -228,6 +228,7 @@ export default {
 
 @media (max-width: 400px) {
   .section-one {
+    padding-top: 100px;
     .array-do {
       .wrapper-logo {
         width: 100%;
@@ -245,7 +246,7 @@ export default {
 }
 @media (max-width:1200px ) {
   .section-one{
-    padding: 0 30px;
+    padding: 100px 30px;
     margin-bottom: 30px;
     gap:2rem;
   }
