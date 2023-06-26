@@ -2,10 +2,11 @@
   <div class="section-one" id="home">
     <div class="generality">
       <div class="specialized-field">Front-End Vue Developer</div>
-      <div class="introduce">Xin Chào, tôi tên là Huyền, {{age}} tuổi Là một lập trình viên về Front-end. Mình đến từ Hưng Yên 📍
+      <div class="introduce">Xin Chào, tôi tên là Huyền, {{ age }} tuổi Là một lập trình viên về Front-end. Mình đến từ
+        Hưng Yên 📍
       </div>
       <div class="link">
-        <a href="https://github.com/phamthanhhuyen19124" target="_blank">
+        <a href="https://github.com/huyen-ptt/huyen-cv" target="_blank">
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
@@ -26,7 +27,7 @@
             <img class="logo-img" src="https://sass-lang.com/assets/img/styleguide/seal-black-1e36d095.png"/>
           </div>
           <div class="item-logo">
-            <img  class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"/>
+            <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"/>
           </div>
         </div>
       </div>
@@ -37,13 +38,13 @@
 </template>
 <script>
 export default {
-  data(){
-    return{
+  data() {
+    return {
       ageme: 2004
     }
   },
-  computed:{
-    age(){
+  computed: {
+    age() {
       const currentYear = new Date().getFullYear(); // Lấy năm hiện tại
       return currentYear - this.ageme; // tính toán tuổi người dùng
     }
@@ -61,9 +62,10 @@ export default {
   //margin-top: 10px;
   justify-content: center;
   padding-bottom: 30px;
-  .avt{
+
+  .avt {
     animation: avtt 8s ease-in-out infinite;
-    background-image: url(@/assets/page_new/avt-me.jpg);
+    background-image: url(@/assets/page_new/img-cv.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,6 +76,7 @@ export default {
     transition: all 1s ease-in-out;
     width: 35rem;
   }
+
   @keyframes avtt {
     0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -85,6 +88,7 @@ export default {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
   }
+
   .array-do {
     display: flex;
     align-items: center;
@@ -108,7 +112,7 @@ export default {
         align-items: center;
         background-color: #ffffff;
         border-radius: 999px;
-        box-shadow: 0 0 10px rgba(0,0,0,.09);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .09);
         color: #767676;
         display: flex;
         font-size: 17px;
@@ -170,39 +174,47 @@ export default {
     }
   }
 }
-@media (max-width: 586px) {
-  .section-one{
+
+@media (max-width: 768px) {
+  .section-one {
     display: flex;
     flex-direction: column;
     height: auto;
     padding: 9rem 20px;
-    gap:5rem;
-    .array-do{
+    gap: 5rem;
+
+    .array-do {
       display: flex;
       flex-direction: column;
     }
-    .avt{
+
+    .avt {
       order: 3;
     }
-    .generality{
+
+    .generality {
       width: 100%;
       height: 100%;
       align-items: center;
       order: 4;
-      .specialized-field{
+
+      .specialized-field {
         font-size: 40px;
         line-height: 45px;
         text-align: center;
       }
-      .introduce{
+
+      .introduce {
         text-align: center;
       }
-      .link{
-        gap:2rem;
+
+      .link {
+        gap: 2rem;
       }
     }
-    .array-do{
-      .stack{
+
+    .array-do {
+      .stack {
         margin: 0;
         padding-bottom: 10px;
         border-bottom: 2px solid grey;
@@ -213,4 +225,31 @@ export default {
     }
   }
 }
+
+@media (max-width: 400px) {
+  .section-one {
+    .array-do {
+      .wrapper-logo {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+    .avt {
+      width: 250px;
+      height: 250px;
+    }
+
+  }
+}
+@media (max-width:1200px ) {
+  .section-one{
+    padding: 0 30px;
+    margin-bottom: 30px;
+    gap:2rem;
+  }
+}
+
+
 </style>

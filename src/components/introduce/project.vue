@@ -46,13 +46,13 @@
 
     .img-home {
       width: 450px;
-      height: 400px;
+      height: 300px;
       border-radius: 17px;
       object-fit: contain;
     }
 
     .wrapper-information {
-      width: 400px;
+      max-width: 400px;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -114,7 +114,7 @@
 }
 
 
-@media (max-width: 586px) {
+@media (max-width: 768px) {
   .section-three {
     display: flex;
     flex-direction: column;
@@ -143,5 +143,11 @@
     }
   }
 
+}
+@media (max-width:1200px ) {
+  .section-three{
+    padding:40px 30px ;
+    margin-bottom: 50px;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="section-two" id="about">
-    <div>
+    <div class="bao-anh">
       <img class="logo-section-three"
            src="https://icdn.dantri.com.vn/2021/03/23/meo-chup-anh-do-uong-cuc-dep-bang-dien-thoaidocx-1616516940852.jpeg"/>
     </div>
@@ -8,7 +8,7 @@
       <div class="title-one">About me</div>
       <div class="title-two">Lập trình viên về Front-end sống tại Hưng Yên, Việt Nam📍</div>
       <div class="title-three">
-        Với tư cách là một lập trình viên Front-End, tôi biết về HTML, CSS, JavaScript, Vue, SCSS.
+        Với tư cách là một lập trình viên Front-End, tôi biết về HTML, CSS, JavaScript, Vue, SCSS. Sở thích của tôi là ăn và ngủ, thích đi xem phim và đi chơi với bạn bè.
       </div>
     </div>
   </div>
@@ -25,6 +25,7 @@
     width: 410px;
     height: 350px;
     border-radius: 17px;
+    object-fit: cover;
   }
 
   .about-me {
@@ -55,14 +56,17 @@
   }
 }
 
-@media (max-width: 586px) {
+@media (max-width: 768px) {
   .section-two {
     display: flex;
     flex-direction: column;
     padding: 0 30px;
-
+    .bao-anh{
+      margin: 0 auto;
+    }
     .logo-section-three {
-      height: 200px;
+     width: 100%;
+      height: 100%;
       object-fit: cover;
     }
 
@@ -83,6 +87,12 @@
         margin-bottom: 40px;
       }
     }
+  }
+}
+@media (max-width:1200px ) {
+  .section-two{
+    padding:0 30px ;
+    margin-bottom: 50px;
   }
 }
 </style>

@@ -8,11 +8,11 @@
       <div class="thong-tin">
         <div class="item-thong-tin">
           <div class="circle">
-            <i class="fa-solid fa-map-location-dot"></i>
+            <i class="fa-solid fa-phone"></i>
           </div>
           <div class="bao-local">
-            <div class="local">Location</div>
-            <div class="current-position">Hưng Yên, Việt Nam</div>
+            <div class="local">Phone Number</div>
+            <div class="current-position">0981156216</div>
           </div>
         </div>
         <div class="item-thong-tin">
@@ -21,7 +21,7 @@
           </div>
           <div class="bao-local">
             <div class="local">Mail</div>
-            <div class="current-position">phamthanhhuyen19124@gmail.com</div>
+            <div class="current-position">phamhuyen19124@gmail.com</div>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
   font-size: 10px;
   padding: 110px 0px;
   .bao{
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
     .item-one {
       color: #147efb;
@@ -96,7 +96,7 @@
     }
   }
 }
-@media (max-width: 586px) {
+@media (max-width: 768px) {
   .section-four{
     width: 100%;
     .item-one{
@@ -120,6 +120,12 @@
         }
       }
     }
+  }
+}
+@media (max-width:1200px ) {
+  .section-four{
+    padding:0 30px ;
+    margin-bottom: 50px;
   }
 }
 </style>

@@ -37,7 +37,7 @@
         Copyright ©2023. All rights are reserved
       </div>
       <div class="footer-right">
-        <a href="https://github.com/phamthanhhuyen19124" target="_blank">
+        <a href="https://github.com/huyen-ptt/huyen-cv" target="_blank">
           <i class="fa-brands fa-github"></i></a>
       </div>
     </div>
@@ -164,7 +164,7 @@ export default {
     }
   }
 
-  @media (max-width: 415px) {
+  @media (max-width: 768px) {
     .mobile-link {
       align-items: center;
       background-color: #fff;
@@ -229,6 +229,9 @@ export default {
         margin: 0 auto;
       }
     }
+  }
+  @media (max-width: 440px) {
+    
   }
 }
 </style>
