@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Vue3</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:image" content="meta-img.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>huyen-cv</title>
+</head>
+<body>
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
 </html>
+<!--Export và export default là hai cách để xuất bất kỳ phần nào của module ra ngoài để sử dụng lại trong các module khác-->
+<!--.Khi sử dụng `export`, bạn xuất một biểu thức hoặc một đối tượng ra ngoài. Nó có thể được sử dụng với nhiều tên khác nhau -->
+<!--khi được nhập vào các module khác. Ví dụ:```// file a.jsexport const name = 'John';export const age = 30;// file b.jsimport -->
+<!--{ name, age } from './a.js';console.log(name); // 'John'console.log(age); // 30```Khi sử dụng `export default`,-->
+<!--bạn chỉ có thể xuất một giá trị duy nhất từ module đó. Khi được nhập, nó được gán cho biến mặc định của module đó. -->
+<!--Ví dụ:```// file a.jsconst name = 'John';export default name;// file b.jsimport myName from './a.js';console.log(myName);-->
+<!--// 'John'```Tóm lại, `export` cho phép bạn xuất nhiều giá trị từ một module, trong khi `export default` chỉ cho phép xuất một giá trị duy nhất.-->
+
