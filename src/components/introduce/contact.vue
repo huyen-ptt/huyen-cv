@@ -12,7 +12,7 @@
           </div>
           <div class="bao-local">
             <div class="local">Phone Number</div>
-            <div class="current-position">0981156216</div>
+            <a class="current-position" href="tel:0981156216">0981156216</a>
           </div>
         </div>
         <div class="item-thong-tin">
@@ -21,7 +21,7 @@
           </div>
           <div class="bao-local">
             <div class="local">Mail</div>
-            <div class="current-position">phamhuyen19124@gmail.com</div>
+            <a class="current-position" href="mailto:phamhuyen19124@gmail.com">phamhuyen19124@gmail.com</a>.<br>
           </div>
         </div>
       </div>

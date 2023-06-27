@@ -8,9 +8,7 @@
         <a class="github" href="https://huyenptt-instagram.netlify.app/" target="_blank">Giao diện Instagram</a>
         <div class="gioi-thieu">Website hiện thị giao diện gần giống với trang Instagram. Bao gồm các trang như Home,
           Explore Reels
-          ,Messegnger, Created và Profile. Instagram cũng cho phép người dùng tương tác với những bài viết trong đó và
-          có
-          thể nhắn tin trên phương diện người dùng và bản thân...
+          ,Messegnger, và Profile. Instagram ...
         </div>
         <div class="demo">
           <a href="https://github.com/phamthanhhuyen19124/instagram-ui" class="githubb" target="_blank">
