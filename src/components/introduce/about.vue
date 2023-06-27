@@ -6,9 +6,9 @@
     </div>
     <div class="about-me">
       <div class="title-one">About me</div>
-      <div class="title-two">Lập trình viên về Front-end sống tại Hưng Yên, Việt Nam📍</div>
+      <div class="title-two">Lập trình viên về Front-end sống tại Hà Nội, Việt Nam📍</div>
       <div class="title-three">
-        Với tư cách là một lập trình viên Front-End, tôi biết về HTML, CSS, JavaScript, Vue, SCSS. Sở thích của tôi là hay tìm hiểu về lập trình, thích đi xem phim và đi chơi với bạn bè.
+        Với tư cách là một lập trình viên Front-End, tôi biết về HTML, CSS, JavaScript, Vue, SCSS. Sở thích của tôi là đi xem phim và đi chơi với bạn bè.
       </div>
     </div>
   </div>
