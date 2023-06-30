@@ -2,7 +2,7 @@
   <div id="contact" class="section-four">
     <div class="bao">
       <div class="item-one">
-        CONTACT
+        Liên hệ
       </div>
       <!--      <div class="item-two">Don't be shy! Hit me up! 👇</div>-->
       <div class="thong-tin">
@@ -11,7 +11,7 @@
             <i class="fa-solid fa-phone"></i>
           </div>
           <div class="bao-local">
-            <div class="local">Phone Number</div>
+            <div class="local">Số điện thoại</div>
             <a class="current-position" href="tel:0981156216">0981156216</a>
           </div>
         </div>

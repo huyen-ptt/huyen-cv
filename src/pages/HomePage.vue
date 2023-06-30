@@ -14,16 +14,16 @@
       <div class="logo">ThanhHuyen</div>
       <ul class="link">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">Trang chủ</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">Về tôi</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Dự án</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Liên hệ</a>
         </li>
       </ul>
       <i @click="openMenu=!openMenu" class="fa-solid fa-bars"></i>
@@ -34,7 +34,7 @@
     <contact/>
     <div class="footer">
       <div class="footer-left">
-        Copyright ©2023. All rights are reserved
+        Copyright ©2023. By Huyen-dev.
       </div>
       <div class="footer-right">
         <a href="https://github.com/huyen-ptt/huyen-cv" target="_blank">

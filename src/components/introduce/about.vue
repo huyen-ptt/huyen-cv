@@ -5,10 +5,10 @@
            src="https://icdn.dantri.com.vn/2021/03/23/meo-chup-anh-do-uong-cuc-dep-bang-dien-thoaidocx-1616516940852.jpeg"/>
     </div>
     <div class="about-me">
-      <div class="title-one">About me</div>
+      <div class="title-one">Về tôi</div>
       <div class="title-two">Lập trình viên về Front-end sống tại Hà Nội, Việt Nam📍</div>
       <div class="title-three">
-        Với tư cách là một lập trình viên Front-End, tôi biết về HTML, CSS, JavaScript, Vue, SCSS. Sở thích của tôi là đi xem phim và đi chơi với bạn bè.
+        Với tư cách là một lập trình viên Front-end, tôi biết về HTML, CSS, JavaScript, Vue, SCSS. Sở thích của tôi là đi xem phim và đi chơi với bạn bè.
       </div>
     </div>
   </div>

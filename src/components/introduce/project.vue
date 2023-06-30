@@ -1,14 +1,14 @@
 <template>
   <div id="projects" class="section-three">
+    <div class="content">Dự án</div>
     <div class="section-three-small">
       <div class="title-section-three">
         <img class="img-home" src="@/assets/page_new/home.png"/>
       </div>
       <div class="wrapper-information">
         <a class="github" href="https://huyenptt-instagram.netlify.app/" target="_blank">Giao diện Instagram</a>
-        <div class="gioi-thieu">Website hiện thị giao diện gần giống với trang Instagram. Bao gồm các trang như Home,
-          Explore Reels
-          ,Messegnger, và Profile. Instagram ...
+        <div class="gioi-thieu">Website hiện thị giao diện gần giống với trang instagram. Bao gồm các trang như home,
+          explore reels, messenger và profile. Instagram ...
         </div>
         <div class="demo">
           <a href="https://github.com/phamthanhhuyen19124/instagram-ui" class="githubb" target="_blank">
@@ -27,11 +27,18 @@
 .section-three {
   background-color: #f9f9f9;
   display: flex;
-  gap: 100px;
+  gap: 50px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
-
+  .content{
+    display: flex;
+    justify-content: flex-start;
+    color: #147efb;
+    font-size: 27px;
+    font-weight: 700;
+  }
   .section-three-small {
     display: flex;
     max-width: 1200px;

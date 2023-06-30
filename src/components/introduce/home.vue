@@ -2,7 +2,7 @@
   <div class="section-one" id="home">
     <div class="generality">
       <div class="specialized-field">Front-End Vue Developer</div>
-      <div class="introduce">Xin Chào, tôi tên là Huyền, {{ age }} tuổi Là một lập trình viên về Front-end. Mình đến từ
+      <div class="introduce">Xin Chào, tôi tên là Huyền, {{ age }} tuổi. Là một lập trình viên về Front-end. Tôi đến từ
         Hưng Yên 📍
       </div>
       <div class="link">
@@ -11,7 +11,7 @@
         </a>
       </div>
       <div class="array-do">
-        <div class="stack">Tech Stack</div>
+        <div class="stack">Skill</div>
         <div class="wrapper-logo">
           <div class="item-logo">
             <img class="logo-img" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"/>
@@ -24,7 +24,7 @@
                  src="https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png"/>
           </div>
           <div class="item-logo">
-            <img class="logo-img" src="https://sass-lang.com/assets/img/styleguide/seal-black-1e36d095.png"/>
+            <img class="logo-img" src="https://cdn.iconscout.com/icon/free/png-512/free-sass-3629630-3031098.png?f=avif&w=256"/>
           </div>
           <div class="item-logo">
             <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"/>
