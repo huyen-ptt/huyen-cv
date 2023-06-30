@@ -17,7 +17,7 @@
           <a href="#home">Trang chủ</a>
         </li>
         <li>
-          <a href="#about">Về tôi</a>
+          <a href="#about">Giới thiệu</a>
         </li>
         <li>
           <a href="#projects">Dự án</a>
