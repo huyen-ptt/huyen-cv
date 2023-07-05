@@ -26,15 +26,15 @@
         <img class="img-home" src="@/assets/page_new/web-film.png"/>
       </div>
       <div class="wrapper-information">
-        <a class="github" href="https://web-phim.netlify.app" target="_blank">Website Phim</a>
+        <a class="github" href="https://web-phim.netlify.app" target="_blank">Landing-page</a>
         <div class="gioi-thieu">Website hiện thị giao diện để khách hàng có thể tham khảo các gói phim, các nhận xét của người dùng trước đó...
         </div>
         <div class="demo">
-          <a href="https://github.com/huyen-ptt/web-film" class="githubb" target="_blank">
+          <a href="https://github.com/huyen-ptt/landing-page" class="githubb" target="_blank">
             <i class="fa-brands fa-github"></i>
             <div class="name">Github</div>
           </a>
-          <a class="link-demo btn-demo" href="https://web-phim.netlify.app" target="_blank">
+          <a class="link-demo btn-demo" href="https://landing-page-huyen.netlify.app" target="_blank">
             <span>Demo</span>
           </a>
         </div>
