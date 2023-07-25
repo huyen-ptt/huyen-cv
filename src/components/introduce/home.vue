@@ -6,7 +6,7 @@
         Hưng Yên 📍
       </div>
       <div class="link">
-        <a href="https://github.com/huyen-ptt/huyen-cv" target="_blank">
+        <a href="https://github.com/huyen-ptt" target="_blank">
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
