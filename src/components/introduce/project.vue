@@ -40,6 +40,25 @@
         </div>
       </div>
     </div>
+    <div class="section-three-small">
+      <div class="title-section-three">
+        <img class="img-home" src="@/assets/page_new/food.png"/>
+      </div>
+      <div class="wrapper-information">
+        <a class="github" href="https://web-food-huyen-ptt.netlify.app" target="_blank">Food-page</a>
+        <div class="gioi-thieu">Website hiện thị giao diện đồ ăn, có các trang như login, home, fooddetail, profile, review, cart...
+        </div>
+        <div class="demo">
+          <a href="https://github.com/huyen-ptt/web-food" class="githubb" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            <div class="name">Github</div>
+          </a>
+          <a class="link-demo btn-demo" href="https://web-food-huyen-ptt.netlify.app" target="_blank">
+            <span>Demo</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <style scoped lang="scss">
