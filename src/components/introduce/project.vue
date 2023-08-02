@@ -46,7 +46,7 @@
       </div>
       <div class="wrapper-information">
         <a class="github" href="https://web-food-huyen-ptt.netlify.app" target="_blank">Food-page</a>
-        <div class="gioi-thieu">Website hiện thị giao diện đồ ăn, có các trang như login, home, fooddetail, profile, review, cart...
+        <div class="gioi-thieu">Website hiện thị giao diện đồ ăn.
         </div>
         <div class="demo">
           <a href="https://github.com/huyen-ptt/web-food" class="githubb" target="_blank">
