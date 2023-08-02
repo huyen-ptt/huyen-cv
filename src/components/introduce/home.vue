@@ -29,6 +29,9 @@
           <div class="item-logo">
             <img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"/>
           </div>
+          <div class="item-logo">
+            <img class="logo-img" src="@/assets/page_new/git.png"/>
+          </div>
         </div>
       </div>
     </div>
